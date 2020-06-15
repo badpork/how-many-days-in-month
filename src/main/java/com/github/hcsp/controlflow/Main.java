@@ -28,14 +28,14 @@ public class Main {
             case 8:
             case 10:
             case 12:
-                return (month + "月有31天");
+                return month + "月有31天";
             case 2:
-                return (month + "月有28天");
+                return month + "月有28天";
             case 4:
             case 6:
             case 9:
             case 11:
-                return (month + "月有30天");
+                return month + "月有30天";
         }
         return "非法输入";
     }
